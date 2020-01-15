@@ -63,8 +63,8 @@ function makePdf(data,file) {
 				scale: .9,
 				displayHeaderFooter: true,
 				margin: {top: 100, bottom:100, right: '50', left: '50'},
-				footerTemplate: '<div class="pageNumber" style="font-size:8px;width:100%;text-align:center;"></div>',
-				headerTemplate: '<div class="date" style="font-size:8px;width:100%;text-align:center;"></div>'
+				footerTemplate: '',
+				headerTemplate: ''
 			});
 		  
 			await browser.close();
